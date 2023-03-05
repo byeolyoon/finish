@@ -4,6 +4,6 @@ const choseImage = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img");
 
-bgImage.src = `/${choseImage}`;
+bgImage.src = `moment/${choseImage}`;
 
 document.body.appendChild(bgImage);
